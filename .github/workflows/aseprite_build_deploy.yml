@@ -67,7 +67,6 @@ jobs:
          os: [windows-latest]
        fail-fast: false    
     steps:
-      - name: (Windows) Install dependencies
 
       - name: (Ubuntu) Install dependencies
         if: matrix.os == 'ubuntu-latest'
